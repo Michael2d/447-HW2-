@@ -1,0 +1,9 @@
+sql
+sqlite3 users.db
+CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT, points INTEGER);
+INSERT INTO users(Name,Points) VALUES("Steve Smith",80);
+INSERT INTO users(Name,Points) VALUES("Jia Wong",92);
+INSERT INTO users(Name,Points) VALUES("Chris Peterson",91);
+INSERT INTO users(Name,Points) VALUES("Sai Patel",94);
+INSERT INTO users(Name,Points) VALUES("Andrew Whitehead",99);
+.quit
