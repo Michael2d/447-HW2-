@@ -1,6 +1,5 @@
 # Defines four endpoints for handling CURD (Create, Update, Read, Delete)
 
-python
 from databases import Database
 from databases import DatabaseURL
 from flask import Flask,jsonify,request
